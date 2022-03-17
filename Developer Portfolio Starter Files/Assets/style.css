@@ -1,0 +1,57 @@
+/* fot home */
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Inter:wght@300&family=Raleway:wght@200&display=swap');
+/* for headings */
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap'); 
+
+*{
+    margin: 0 40px;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0A0A0B;
+}
+
+nav{
+    font-family: 'Inter', sans-serif;
+    background-color: #0A0A0B;
+    height: 5rem;
+}
+.navName{
+    font-family: 'Prata', serif;
+    color: #CDCDCD;
+    display: inline-block;
+    position: absolute;
+    top: 4rem;
+    font-size: 17px;
+}
+
+.navLinks div{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navLinks{
+    color: #ADADAD;
+    display: inline-block;
+    position: relative;
+    top: 4rem;
+    left: 24rem;
+    font-size: 19px;
+}
+
+.navBtn{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 37px;
+}
+
+.btnMain{
+    background-color: #FBE850;
+    padding: 20px;
+    border: none;
+    height: 55px;
+    width: 10rem;
+    font-weight: 500;
+    font-size: large;
+    cursor: pointer;
+}
