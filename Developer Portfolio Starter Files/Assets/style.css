@@ -39,6 +39,7 @@ nav{
     left: 24rem;
     font-size: 19px;
     cursor: default;
+    user-select: none;
 }
 
 .navBtn{
@@ -85,4 +86,17 @@ nav{
     font-size: 18px;
     font-family: 'Inter', sans-serif;   
     color: #ADADAD;
+}
+
+.companyNames{
+    margin: 75px 0;
+    user-select: none;
+}
+
+.companyNames img{
+    margin: 0 43px;
+}
+
+.companyNames img:nth-of-type(6){
+    margin-right: 0;
 }
