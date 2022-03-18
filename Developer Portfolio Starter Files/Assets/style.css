@@ -3,6 +3,13 @@
 /* for headings */
 @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap'); 
 
+:root{
+    --headingFont: 'Prata', serif;
+    --homeFont: 'Inter', sans-serif;
+    --noMargin: 0 0;
+    --textColor: #ADADAD;
+}
+
 *{
     margin: 0 30px;
     padding: 0;
@@ -11,12 +18,12 @@
 }
 
 nav{
-    font-family: 'Inter', sans-serif;
+    font-family: var(--homeFont);
     background-color: #0A0A0B;
     height: 25vh;
 }
 .navName{
-    font-family: 'Prata', serif;
+    font-family: var(--headingFont);
     color: #CDCDCD;
     display: inline-block;
     position: absolute;
@@ -32,7 +39,7 @@ nav{
 }
 
 .navLinks{
-    color: #ADADAD;
+    color: var(--textColor);
     display: inline-block;
     position: relative;
     top: 4rem;
@@ -65,13 +72,13 @@ nav{
 }
 
 .mainHeading{
-    margin: 0 0;
+    margin: var(--noMargin);
 }
 
 .mainHeading h1{
     font-size: 55px;
     font-weight: 100;
-    font-family: 'Prata', serif;
+    font-family: var(--headingFont);
 }
 
 .mainHeading h1:nth-of-type(2){
@@ -84,8 +91,8 @@ nav{
 
 .mainHeading p{
     font-size: 18px;
-    font-family: 'Inter', sans-serif;   
-    color: #ADADAD;
+    font-family: var(--homeFont);   
+    color: var(--textColor);
 }
 
 .companyNames{
@@ -99,4 +106,37 @@ nav{
 
 .companyNames img:nth-of-type(6){
     margin-right: 0;
+}
+
+.mainPhotos{
+    display: inline-block;
+    margin: var(--noMargin);
+}
+
+.mainPhotos div{
+    display: inherit;
+    margin: var(--noMargin);
+}
+
+.mainPhotos div:nth-of-type(2){
+    display: inherit;
+    margin: 0 0 0 5rem;
+}
+
+.mainPhotos img{
+    margin: var(--noMargin);
+}
+
+.photo1 h1,.photo2 h1{
+    margin: 20px 0;
+    font-family: var(--headingFont);
+    font-size: 32px;
+    font-weight: 100;
+}
+
+.photo1 p , .photo2 p{
+    color: var(--textColor);
+    font-family: var(--homeFont);
+    font-size: 15px;
+    margin: var(--noMargin);
 }
