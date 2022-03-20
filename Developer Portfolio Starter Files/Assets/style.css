@@ -8,6 +8,7 @@
     --homeFont: 'Inter', sans-serif;
     --noMargin: 0 0;
     --textColor: #ADADAD;
+    --secBackground: #2E3038;
 }
 
 *{
@@ -139,4 +140,64 @@ nav{
     font-family: var(--homeFont);
     font-size: 15px;
     margin: var(--noMargin);
+}
+
+.moreContent{
+    margin: 3rem 0;
+    padding: 10px;
+    background-color: var(--secBackground);
+    display: inline-block;
+}
+
+.mcMargin{
+    margin: 3rem 0;
+}
+
+.moreDivs-1{
+    color: white;
+    background-color: var(--secBackground);
+    display: inherit;
+}
+
+.moreDivs-1 h1{
+    background-color: inherit;
+    font-size: 35px;
+    font-weight: 300;
+    font-family: var(--headingFont);
+}
+
+.moreDivs-1 p,.moreDivs-2 p{
+    background-color: var(--secBackground);
+    color: var(--textColor);
+    font-family: var(--homeFont);
+    font-size: 16px;
+}
+
+.moreDivs-1 p:nth-of-type(1){
+    margin-top: 15px;
+}
+.moreDivs-1 p:nth-of-type(3){
+    margin-top: 0;
+}
+.moreDivs-1 p:nth-of-type(5){
+    margin-top: 20px;
+}
+
+.moreDivs-2{
+    margin: var(--noMargin);
+    background-color: var(--secBackground);
+    display: inherit;
+}
+
+.moreDivs-2 b{
+    margin: 0 0;
+    background-color: var(--secBackground);
+}
+
+.moreDivs-2 p:nth-of-type(3){
+    margin: 20px 30px;
+}
+
+.moreDivs-2 p:nth-of-type(8){
+    margin-top: 30px;
 }
