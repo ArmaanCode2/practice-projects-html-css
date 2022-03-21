@@ -147,6 +147,7 @@ nav{
     padding: 10px;
     background-color: var(--secBackground);
     display: inline-block;
+    width: 85vw;
 }
 
 .mcMargin{
