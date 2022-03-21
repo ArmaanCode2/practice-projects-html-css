@@ -234,3 +234,38 @@ nav{
     margin: var(--noMargin);
     margin-top: 20px;
 }
+
+footer, footer h3, footer img{
+    margin: var(--noMargin);
+    background-color: var(--secBackground);
+    display: inline-block;
+}
+
+footer{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 12%;
+}
+
+.socialIcons{
+    background-color: var(--secBackground);
+    display: inline-block;
+    position: absolute;
+    right: 55px;
+    top: 25px;
+}
+
+.socialIcons img{
+    margin-left: 15px;
+}
+
+footer h3{
+    position: absolute;
+    left: 9rem;
+    top: 25px;
+    font-family: var(--headingFont);
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+}
