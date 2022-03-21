@@ -202,3 +202,35 @@ nav{
 .moreDivs-2 p:nth-of-type(8){
     margin-top: 30px;
 }
+
+.contactContent h1{
+    margin: var(--noMargin);
+    color: white;
+    font-size: 35px;
+    font-weight: 300;
+    font-family: var(--headingFont);
+}
+
+.contactSec{
+    margin: 3rem 0 5rem 0;
+}
+
+.contactContent p{
+    margin: var(--noMargin);
+    color: var(--textColor);
+    font-family: var(--homeFont);
+    font-size: 19px;
+}
+
+.contactContent{
+    margin: var(--noMargin);
+}
+
+.contactBtnDiv{
+    margin: var(--noMargin);
+}
+
+.contactBtnDiv button{
+    margin: var(--noMargin);
+    margin-top: 20px;
+}
